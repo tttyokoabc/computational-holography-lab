@@ -1,0 +1,22 @@
+# Generated numerical data and local run products
+/results/*
+!/results/.gitkeep
+*.mat
+*.asv
+*.m~
+*.fig
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
